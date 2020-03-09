@@ -1,0 +1,96 @@
+@import"normalize";
+.van-tabs--line .van-tabs__wrap{
+    border-radius: 4px;
+    box-shadow: 0rem 0.06rem 0.44rem 0rem rgba(0,0,0,0.20);
+  }
+  .xiangmu{
+      margin-top: 20px;
+  }
+  .item-box{
+      position: relative;
+      .img{
+        display: block;
+        position: absolute;
+        width: 1.18rem;
+        height: 4.53rem;
+        top: 10px;
+        left: -7px;
+      }
+        .doing{
+        background: url("/images/doing.png") no-repeat;
+        background-size: contain;
+    }
+    .end {
+        background: url("/images/end.png") no-repeat;
+        background-size: contain;
+      }
+      .ready {
+        background: url("/images/ready.png") no-repeat;
+        background-size: contain;
+      }
+      span{
+          color: red;
+      }
+    
+    //   height: 6.08rem;
+      margin-bottom: 1rem;
+      background-color: #fff;
+      border-radius: 4px;
+      padding: 0.52rem 0.8rem;
+      padding-left: 1rem;
+        h2{
+            margin: 0px;
+            font-size: 0.88rem;
+            font-size: #333;
+          
+        }
+        p{
+            margin: 0px;
+            font-size: 0.75rem;
+            color: #666;
+            margin-top: 0.38rem;
+        }
+        .jindu{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 0.8rem;
+            .red{
+                color: red;
+            }
+            .van-progress{
+                width: 85%;
+            }
+        }
+        .buttons{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 0.8rem;
+            position: relative;
+            &::after{
+                content: '';
+                width: 1px;
+                height: 16px;
+                background-color: rgb(182, 182, 182);
+                position: absolute;
+                left: 50%;
+            }
+         
+            
+            .button-box{
+                display: flex;
+                align-items: center;
+                .iconfont{
+                    color: #357EEB ;
+                    font-size: 1.2rem;
+                }
+                .text{
+                    font-size: 0.75rem;
+                    color: #666;
+                    margin-left: 0.5rem;
+                }
+            }
+          
+        }
+  }
